@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Academic Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eef2f3;
+      padding: 30px;
+    }
+    h2 {
+      text-align: center;
+      color: #444;
+    }
+    table {
+      width: 80%;
+      margin: auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #3f51b5;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f7f7f7;
+    }
+    tr:hover {
+      background-color: #dce6f1;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Student Academic Record</h2>
+
+  <table>
+    <tr>
+      <th colspan="3">Batchmates' Academic Details</th> <!-- Colspan used here -->
+    </tr>
+    <tr>
+      <th>Name</th>
+      <th>Registration No</th>
+      <th>CGPA (Till Last Sem)</th>
+    </tr>
+    <tr>
+      <td rowspan="2">Ravi Kumar</td> <!-- Rowspan used here -->
+      <td>23105110545</td>
+      <td>8.4</td>
+    </tr>
+    <tr>
+      <td>22155154151</td>
+      <td>8.7</td>
+    </tr>
+    <tr>
+      <td>Neha Singh</td>
+      <td>2310515844</td>
+      <td>9.0</td>
+    </tr>
+    <tr>
+      <td>Manish Roy</td>
+      <td>22545451815</td>
+      <td>7.9</td>
+    </tr>
+    <tr>
+      <td>Aditi Verma</td>
+      <td>22951549645</td>
+      <td>8.5</td>
+    </tr>
+  </table>
+
+</body>
+</html>
